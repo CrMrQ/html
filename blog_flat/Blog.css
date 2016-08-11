@@ -3,7 +3,7 @@
 }
 
 .main{
-	background: #ccc url(img/banner.jpg);
+	background: #ccc url(banner.jpg);
 	background-repeat: none;
 	background-attachment: fixed;
 	background-size: cover; 
