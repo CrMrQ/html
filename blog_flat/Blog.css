@@ -1,0 +1,306 @@
+*{
+	font-family: "Microsoft Yahei";
+}
+
+.main{
+	background: #ccc url(img/banner.jpg);
+	background-repeat: none;
+	background-attachment: fixed;
+	background-size: cover; 
+	background-position: center;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,0.2);
+	position: fixed;
+
+}
+
+#banner{
+	height: 800px;
+	background-color: rgba(0,0,0,0.3);
+}
+
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}
+
+nav ul{
+	list-style: none;
+	line-height: 50px;
+	margin: 0;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	padding:0 20px;
+}
+
+nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#banner .inner{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	/*top，left，bottom，right等属性，
+	在static的情况下是无效的，
+	要使用，必须把position设置为其他三个值之一。*/
+	top:250px;
+	color: #fff;
+}
+
+h1,h2{
+	display: inline-block; 
+	/*撑起来之后才能设置margin*/
+	margin：0;
+}
+
+#banner .inner .inner-text{
+	/*line-height: 30px;*/
+	letter-spacing: 1px;
+}
+
+#banner .inner button{
+	border: none;
+	background-color: #b90000;
+	color: #eee;
+	padding: 10px 45px;
+	margin-top: 35px;
+	letter-spacing: 2px;
+}
+
+#banner .inner .get-more{
+	margin-top: 200px;
+}
+
+#green{
+	text-align: center;
+	color: #fff;
+	background: #05a076;
+}
+
+#green .wrap{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+#green .wrap .hr{
+	height: 2px;
+	width: 100%;
+	background: #038662;
+}
+
+#green .wrap .green-inner{
+	padding-top: 60px;
+}
+
+#green .wrap .green-icon{
+	display:inline-block;
+	/*行内元素才可设置高度和宽度*/
+	width: 80px;
+	height: 80px;
+	background: #058663;
+	transform: rotate(45deg);
+	margin: 40px 30px;
+	margin-bottom: 100px;
+}
+
+#gray .article-pre{
+	background: #211d1d;
+	color: #fff;
+	font-size: 0;
+}
+
+#gray .article-pre:nth-child(odd){
+	background-color: rgba(0,0,0,0.85);
+}
+
+#gray .article-pre > div{
+	float:left;
+}
+
+#gray .article-pre:after{
+	/*用于解决，
+	浮动后父元素样式消失的问题*/
+	content: '';
+	clear: both;
+	display: block;
+}
+
+#gray .article-img{
+	width:45%;
+}
+
+#gray .article-img img{
+	width:100%;
+	/*设置完图片容器须再设置图片宽度，
+	不然图片会溢出，宽度不起作用*/
+}
+
+#gray .article-text{
+	position:relative;
+	width: 55%;
+	left: 55px;
+	top: 50px;
+}
+
+#gray .article-text h2{
+	font-size: 24px;
+}
+
+#gray .article-text p{
+	font-size: 16px;
+	max-width: 80%;
+}
+
+#gray .article-text .article-sub{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#purple{
+	background: #673984;
+	color: #fff;
+}
+
+#purple .pur-wrap{
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#purple .pur-wrap .pur-article h2{
+	margin-top:80px;
+}
+
+#purple .pur-wrap .hr{
+	height: 2px;
+	width: 70%;
+	background: #8a54b9;
+	margin: 0 auto;
+}
+
+#purple .pur-wrap .pur-article p{
+	letter-spacing: 1px;
+}
+
+#purple .pur-wrap .pur-card{
+	margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+#purple .pur-wrap .pur-card:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#purple .pur-wrap .pur-card  div{
+	width:50%;
+	float: left;
+	min-height: 250px;
+	background-color: #612b84;
+}
+
+#purple .pur-wrap .pur-card .card1{
+	background-color: rgba(0,0,0,0.08);
+}
+
+#purple .pur-wrap .pur-card .card2{
+	background-color: rgba(0,0,0,0.11);
+}
+
+#purple .pur-wrap .pur-card .card3{
+	background-color: rgba(0,0,0,0.14);
+}
+
+#purple .pur-wrap .pur-card .card4{
+	background-color: rgba(0,0,0,0.17);
+}
+
+#purple .pur-wrap .pur-card .card5{
+	background-color: rgba(0,0,0,0.2);
+}
+
+#purple .pur-wrap .pur-card .card6{
+	background-color: rgba(0,0,0,0.23);
+}
+
+footer{
+	color: #fff;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+}
+
+footer .other{
+	height: 200px;
+	margin: 0 auto;
+	width: 50%;
+}
+
+footer .other h3{
+	margin: 0;
+}
+
+footer .other .other-inner{
+	max-width: 60%;
+	float: left;
+	margin-top: 55px;
+	text-align: right;
+}
+
+footer .other .other-button{
+	max-width: 40%;
+	float: left;
+	margin: 35px;
+	margin-left: 80px;
+}
+
+footer .other .other-button button{
+	display: block;
+    padding: 8px 30px;
+    margin: 15px;
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+footer .other .other-button .btn-love{
+	background: #b90000;
+}
+
+footer .other .other-button .btn-hate{
+	background: #ccc;
+}
+
+footer .footer-share{
+	background: #333;
+	height: 150px;
+}
+
+footer .footer-share .share{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer .footer-share .share li{
+	display: inline-block;
+	padding: 40px 20px;
+}
