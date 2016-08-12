@@ -1,0 +1,40 @@
+*{
+	font-family: "Microsoft Yahei";
+	text-align: center;
+}
+
+#content{
+	margin:0 auto;
+	border: #ccc solid 2px;
+	/*添加边框属性有3个参数*/
+	width: 700px;
+	height: 200px;
+}
+
+p{
+	padding: 5px 15px;
+	text-align: left;
+}
+
+#btn{
+	width: 700px;
+	height:50px;
+	margin: 0 auto;
+}
+ 
+#btn button{
+	border:none;
+	padding: 5px 20px;
+	background: #bf0505;
+	color: #fff;
+	font-size: 16px;
+	margin: 15px 10px;
+	letter-spacing: 1px;
+}
+
+#Reset{
+	background: #b7b5b5 !important;
+}
+/*样式覆盖顺序：
+id选择器 > 类选择器 > 元素类型选择器
+可以通过!important是优先级变高*/
