@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Restudy JS</title>
+	<!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
+	<link rel="stylesheet" type="text/css" href="SublimeTest.css">
+	<script type="text/javascript">
+		function Color(){
+			var inner = document.getElementById("inner");
+			inner.style.color="#0db779";
+		}
+		function LineH(){
+			var inner = document.getElementById("content");
+			// 块状元素才有行高的概念
+			inner.style.lineHeight=1.7;
+		}
+		function LtrSp(){
+			var inner = document.getElementById("inner");
+			inner.style.letterSpacing="1px";
+		}
+		function Hide(){
+			var inner = document.getElementById("inner");
+			inner.style.display="none";
+		}
+		function Show(){
+			var inner = document.getElementById("inner");
+			inner.style.display="block";
+		}
+		function Reset(){
+			var inner = document.getElementById("inner");
+			inner.style.color="#000";
+			inner.style.lineHeight=1;
+			inner.style.letterSpacing="0px";
+			inner.style.display="block";
+		}
+	</script>
+</head>
+<body>
+	<h1 style="text-align:center">JS simple test</h1>
+	<div id="content">
+		<p id="inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, dolorum! Ipsam odit reprehenderit, temporibus earum. Corrupti cumque soluta rerum non modi nisi earum vel. Laborum illum labore autem ea. Eaque?
+		<br /><br />
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, dolorum! Ipsam odit reprehenderit, temporibus earum.</p>
+	</div>
+	<div id="btn">
+		<button id="Color" onclick="Color()">Color</button>
+		<button id="LineH" onclick="LineH()">LineH</button>
+		<button id="LtrSp" onclick="LtrSp()">LtrSp</button>
+		<button id="Hide" onclick="Hide()">Hide</button>
+		<button id="Show" onclick="Show()">Show</button>
+		<button id="Reset" onclick="Reset()">Reset</button>
+	</div>
+</body>
+</html>
