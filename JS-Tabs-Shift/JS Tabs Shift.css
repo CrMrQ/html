@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+	font:14px "Microsoft Yahei";
+}
+
+#title{
+	height: 50px;
+	line-height: 50px;
+	margin: 20px;
+}
+
+#title h1{
+	font-size:40px;
+	font-weight: 700;
+	color: #ca0909;
+	text-align: center;
+}
+
+#Tabs{
+	width: 287px;
+	margin: 0px auto;
+}
+
+.hide{
+	display: none;
+}
+
+#Tabs ul{
+	list-style:none;
+	height:30px;
+	width: 287px;
+	/*不为ul设置height，可能撑不起li*/
+	line-height:30px;
+	border-bottom:2px solid #ca0909;
+}
+
+#Tabs ul li{
+	height: 28px;
+	line-height: 28px;
+	/*height与line-height一致时
+	  文字上下居中*/
+	width: 60px;
+	display: inline-block;
+	float: left;
+	margin: 0 5px;
+	text-align: center;
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+
+#Tabs ul li.move{
+	background: #e4e3e3;
+}
+
+#Tabs ul li.on{
+	/*li与.on在同一级，无须加空格*/
+	border-top: 2px solid #ca0909;
+	border-bottom: 2px solid #fff;
+	font-weight: 700;
+}
+
+#Tabs div{
+	border: 1px #ccc solid;
+	border-top: none;
+    width: 270px;
+    height: 85px;
+    padding-left: 15px;
+}
