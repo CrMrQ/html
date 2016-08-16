@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft Yahei";
+}
+
+#title{
+    width: 500px;
+    height: 100px;
+    line-height: 100px;
+    margin: 15% auto;
+    font-size: 50px;
+    text-align: center;
+    color: #d20606;
+}
+
+#btn{
+	width: 30%;
+	height: 100px;
+	line-height:100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#btn button{
+    border: none;
+    padding: 8px 20px;
+    background: #d20606;
+    letter-spacing: 4px;
+    font-size: 15px;
+    color: #fff;
+    margin: 5px 30px;
+}
+
+#other{
+    width: 30%;
+    height: 50px;
+    margin: 30px auto;
+    font-size: 15px;
+    text-align: center;
+    color: #ccc;
+}
