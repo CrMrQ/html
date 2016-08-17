@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	font: 16px "Microsoft Yahei";
+	color: #fff;
+}
+
+#speed{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	background: #fb6b6b;
+	position: relative;
+	left: -200px;
+}
+
+#speed #share{
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    line-height: 30px;
+    background: #bb0101;
+    left: 200px;
+    top: 70px;
+    text-align: center;
+    writing-mode:tb-rl;
+}
+
+#opacity{
+	height: 200px;
+	background: #363636;
+	line-height: 200px;
+	text-align: center;
+	opacity:0.5;
+	margin-top: 20px;
+}
+
+.multiSpeed{
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #f9d413;
+    margin-top: 20px;
+}
+
+#multiSquar{
+    width: 660px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.multiOpacity{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: #188611;
+    margin: 10px;
+    float: left;
+    opacity: 0.5;
+}
