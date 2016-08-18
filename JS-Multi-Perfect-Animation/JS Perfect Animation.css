@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#obj{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background: #ccc;
+	left: -200px;
+}
+
+#obj #share{
+	position: absolute;
+	width: 25px;
+	height: 60px;
+	left: 200px;
+	top: 65px;
+	background: red;
+}
+
+#opa{
+	height: 200px;
+	background: #ccc;
+	opacity: 0.3;
+	filter: alpha(opacity:30);  /*IE*/
+	opacity: 0.3;  /*其他*/
+}
+
+li{
+	width: 200px;
+	height: 100px;
+	background: #ccc;
+	margin-bottom:10px;
+	filter: alpha(opacity:30);
+	opacity: 0.3;
+}
+
+#mul{
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+}
+
+#perfect{
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
